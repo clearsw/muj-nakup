@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doména muj-nakup.cz je na prodej</title>
+  <meta name="description" content="Doména muj-nakup.cz je na prodej. Česká .cz doména registrovaná od roku 2006, vhodná pro e-shop, rozvoz potravin, věrnostní program nebo srovnávač cen.">
+  <meta property="og:title" content="Doména muj-nakup.cz je na prodej">
+  <meta property="og:description" content="Česká .cz doména registrovaná od roku 2006. Nabídky od 3 000 Kč, převod online do 24 hodin.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f6f4ef">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f6f4a'/%3E%3Cpath d='M18 24h4l5 20h17l4-14H25' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='29' cy='50' r='3' fill='%23fff'/%3E%3Ccircle cx='42' cy='50' r='3' fill='%23fff'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #f6f4ef;
+      --card: #ffffff;
+      --ink: #1c1c1a;
+      --muted: #5e5c56;
+      --line: #e3dfd5;
+      --accent: #1f6f4a;
+      --accent-ink: #ffffff;
+      --chip: #ebe7dd;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131311;
+        --card: #1c1c19;
+        --ink: #f1efe9;
+        --muted: #a7a49b;
+        --line: #2e2d29;
+        --accent: #5cc28f;
+        --accent-ink: #0c1d14;
+        --chip: #262521;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 56px 20px 32px;
+    }
+    .wrap { width: 100%; max-width: 660px; }
+    .badge {
+      display: inline-block;
+      font-size: .78rem;
+      font-weight: 600;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid currentColor;
+      border-radius: 999px;
+      padding: 4px 12px;
+    }
+    h1 {
+      font-size: clamp(2.4rem, 9vw, 4rem);
+      line-height: 1.02;
+      letter-spacing: -.025em;
+      margin: 22px 0 14px;
+      overflow-wrap: anywhere;
+    }
+    h1 .tld { color: var(--muted); font-weight: 500; }
+    .lead {
+      font-size: 1.15rem;
+      color: var(--muted);
+      margin: 0 0 32px;
+      max-width: 34em;
+    }
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--line);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      margin: 0 0 28px;
+    }
+    .facts div { background: var(--card); padding: 16px 18px; }
+    .facts dt { font-size: .8rem; color: var(--muted); margin: 0 0 2px; }
+    .facts dd { margin: 0; font-weight: 650; font-size: 1.05rem; }
+    .uses {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .uses li {
+      background: var(--chip);
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-size: .92rem;
+    }
+    .cta { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 18px; margin: 0 0 28px; }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--accent-ink);
+      text-decoration: none;
+      font-weight: 650;
+      padding: 14px 24px;
+      border-radius: 11px;
+      transition: filter .15s ease;
+    }
+    .btn:hover { filter: brightness(1.08); }
+    .btn:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+    .contact { color: var(--muted); }
+    .contact a { color: var(--ink); }
+    .note {
+      font-size: .92rem;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      padding-top: 20px;
+      margin: 0;
+    }
+    footer {
+      padding: 20px;
+      text-align: center;
+      font-size: .85rem;
+      color: var(--muted);
+    }
+    footer a { color: inherit; }
+    @media (max-width: 560px) {
+      .facts { grid-template-columns: 1fr; }
+      main { padding-top: 40px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="wrap">
+      <span class="badge">Doména na prodej</span>
+      <h1>muj-nakup<span class="tld">.cz</span></h1>
+      <p class="lead">Srozumitelná česká doména s dvacetiletou historií. Hodí se pro e&#8209;shop, rozvoz potravin, věrnostní program, aplikaci na nákupní seznamy nebo srovnávač cen.</p>
+
+      <dl class="facts">
+        <div><dt>Registrována</dt><dd>od roku 2006</dd></div>
+        <div><dt>Cena</dt><dd>nabídky od 3 000 Kč</dd></div>
+        <div><dt>Převod</dt><dd>online do 24 hodin</dd></div>
+      </dl>
+
+      <ul class="uses" aria-label="Vhodné využití">
+        <li>e-shop</li>
+        <li>rozvoz potravin</li>
+        <li>věrnostní program</li>
+        <li>nákupní seznamy</li>
+        <li>srovnávač cen</li>
+        <li>letákový portál</li>
+      </ul>
+
+      <div class="cta">
+        <a class="btn" href="mailto:kontakt@muj-nakup.cz?subject=Nab%C3%ADdka%20na%20dom%C3%A9nu%20muj-nakup.cz">Poslat nabídku</a>
+        <span class="contact">nebo napište na <a href="mailto:kontakt@muj-nakup.cz">kontakt@muj-nakup.cz</a></span>
+      </div>
+
+      <p class="note">Převod probíhá podle smlouvy o převodu doménového jména a změnou držitele u registrátora WEDOS. Platba bankovním převodem, změna držitele hned po připsání platby.</p>
+    </div>
+  </main>
+
+  <footer>
+    Držitele domény ověříte ve <a href="https://www.nic.cz/whois/domain/muj-nakup.cz/">WHOIS CZ.NIC</a>.
+  </footer>
+
+</body>
+</html>
